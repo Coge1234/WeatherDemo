@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/degree_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp"
+            android:text="--℃"
+            android:textColor="#fff"
+            android:textSize="50sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/weather_info_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="8dp"
+            android:text="--"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/update_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:text="更新于 --:--"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
